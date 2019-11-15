@@ -26,6 +26,11 @@ public class Point_3 {
       System.out.println("\n\nNon-Veg Meal");
       nonVegMeal.showItems();
       System.out.println("Total Cost: " + nonVegMeal.getCost());
+      
+      Meal CheMeal = mealBuilder.prepareCheMeal();
+      System.out.println("\n\nChese Meal");
+      CheMeal.showItems();
+      System.out.println("Total Cost: " + CheMeal.getCost());
     }
     
 }
