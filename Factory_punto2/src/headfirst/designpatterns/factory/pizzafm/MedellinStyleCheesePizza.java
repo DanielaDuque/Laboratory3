@@ -15,8 +15,8 @@ public class MedellinStyleCheesePizza extends Pizza {
 		dough = " Thin Dough";
 		sauce = "Plum Tomato Sauce";
  
-		toppings.add("Beans");
-                toppings.add("Costeno Cheese");
+		toppings.add("beans");
+                toppings.add("costeno Cheese");
 	}
  
 	void cut() {

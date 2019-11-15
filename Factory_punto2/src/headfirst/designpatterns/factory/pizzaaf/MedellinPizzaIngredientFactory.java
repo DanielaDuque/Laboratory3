@@ -41,11 +41,11 @@ public class MedellinPizzaIngredientFactory implements PizzaIngredientFactory {
 
     public Pepperoni createPepperoni() {
 		return new SlicedPepperoni();
-	}
+    }
 
     @Override
 	public Clams createClam() {
 		return new FrozenClams();
-	}
+    }
     
 }
